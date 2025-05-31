@@ -1,0 +1,17 @@
+.privacy-policy {
+    .privacy-text {
+        color: var(--text-color);
+        font-size: 1.2rem;
+        P {
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@media (max-width: 62rem) {
+    .privacy-policy {
+        .privacy-text {
+            font-size: 1rem;
+        }
+    }
+}

@@ -1,0 +1,13 @@
+.banner {
+    .banner-image {
+        height: 18.75rem;
+        max-height: 18.75rem;
+    }
+    .banner-title {
+        width: fit-content;
+        margin: 0 auto;
+        color: white;
+        background: var(--custom-gradient);
+        transform: translateY(-50%);
+    }
+}

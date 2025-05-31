@@ -1,0 +1,326 @@
+{
+  "common": {
+    "update_profile": "Update profile"
+  },
+  "button": {
+    "submit": "Submit",
+    "login": "Log In",
+    "signup": "Signup",
+    "logout": "Logout",
+    "save": "Save",
+    "edit": "Edit",
+    "cancel": "Cancel",
+    "backToHome": "Back to Home"
+  },
+  "fields": {
+    "firstName": "First Name",
+    "middleName": "Middle Name",
+    "lastName": "Last Name",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "old_password": "Current Password",
+    "new_password": "New Password",
+    "new_password_confirmation": "Confirm Password",
+    "phone": {
+      "number": "Phone number",
+      "country_code": "Country code"
+    },
+    "language": "Language",
+    "occupation": "Occupation",
+    "email": "Email",
+    "country": "Country",
+    "country_id": "Country",
+    "birthdate": "Birth Date",
+    "gender": "Gender",
+    "purposeOfVisit": "Purpose of Visit",
+    "passportNumber": "Passport Number",
+    "adults_count": "Adults Count",
+    "children_count": "Children Count",
+    "message": "Explaination you'd like to share",
+    "passport_images": "Passport Images",
+    "male": "Male",
+    "female": "Female",
+    "destinationCountry": "Destination Country",
+    "attachments": "Attachments"
+  },
+  "placeholders": {
+    "firstName": "Enter first name",
+    "middleName": "Enter your middle name",
+    "lastName": "Enter last name",
+    "email": "Enter email",
+    "phone": {
+      "number": "Enter your mobile number to login"
+    },
+    "password": "Enter your password to continue",
+    "confirmPassword": "Confirm new password to continue",
+    "newPassword": "Enter your new password",
+    "currentPassword": "Enter old password",
+    "gender": "Enter gender",
+    "purposeOfVisit": "Enter purpose of visit",
+    "passportNumber": "Enter passport number",
+    "adultsCount": "Enter adults count",
+    "childrenCount": "Enter children count",
+    "message": "Enter message",
+    "passportImages": "Enter passport images",
+    "destinationCountry": "Enter destination country"
+  },
+  "validation": {
+    "required": "{field} is required",
+    "min": "{field} must be at least {min} characters",
+    "max": "{field} cannot be longer than {max} characters",
+    "alpha": "{field} must contain only alphabetical characters",
+    "regex": "{field} format is invalid",
+    "special": "{field} must contain at least one special character",
+    "num": "{field} must contain at least one number",
+    "numeric": "{field} must contain numbers only",
+    "alphaOnly": "{field} must contain only alphabetical characters",
+    "confirmed": "Passwords must match",
+    "email": "Please enter a valid email address"
+  },
+  "homepage": {
+    "landing": {
+      "title": {
+        "top": "Apply for your tourist visa",
+        "bottom": "on visa website"
+      },
+      "offerVise": "Visa offer request",
+      "employmentVisa": "Employment visa",
+      "touristVisa": "Tourist visa"
+    },
+    "heroPanal": {
+      "title": {
+        "partOne": "Double the chances of your visa",
+        "partTwo": "experts reviewing your applications"
+      },
+      "desc": "Request tourist visas or your visa with us to review the visa website"
+    },
+    "altaishirat": {
+      "touristVisa": {
+        "title": {
+          "get": "Get your altashirats",
+          "tourist": "easy way"
+        },
+        "desc": "You have jobs and visas that you want to tell us about Fill out the form and tell us the details you have jobs and visas that you want to tell us about Fill out the form and tell us the details you have jobs and visas that you want to tell us about Fill out the form and tell us the details",
+        "button": "Apply tourist visa",
+        "icon": "mdi-arrow-right-thin"
+      },
+      "employmentVisa": {
+        "title": "The way to get employment visa",
+        "cards": {
+          "one": {
+            "title": "Fill a connection form",
+            "desc": "When you fill connection form we will be able to connection"
+          },
+          "two": {
+            "title": "connection",
+            "desc": "When you fill connection form we will be able to connection"
+          },
+          "three": {
+            "title": "Continue steps",
+            "desc": "When you fill connection form we will be able to connection"
+          },
+          "four": {
+            "title": "Getting the visa",
+            "desc": "When you fill connection form we will be able to connection"
+          }
+        }
+      },
+      "askingVisa": {
+        "title": "Apply for employment visa",
+        "desc": "You have jobs and visas that you want to tell us about Fill out the form and tell us the details you have jobs and visas that you want to tell us about Fill out the form and tell us the details you have jobs and visas that you want to tell us about Fill out the form and tell us the details",
+        "button": "employment visa",
+        "icon": "mdi-chevron-right"
+      }
+    },
+    "services": {
+      "title": "Other services Helping you for",
+      "desc": "Are you searching for tourist visa, employment visa or selling visa, we offer you helping with:",
+      "service": {
+        "one": "Employment visa",
+        "two": "Honest partner",
+        "three": "Authentication of contracts",
+        "four": "Passport insurance",
+        "five": "Business invitation letters"
+      }
+    },
+    "chooseUs": {
+      "button": {
+        "one": "Tourist visa",
+        "two": "Employment visa",
+        "three": "Selling visa"
+      },
+      "title": {
+        "top": "Why choosing us",
+        "bottom": "Many benefits and fast processing"
+      },
+      "text": {
+        "one": "Fasting prosessing",
+        "two": "24 hours internet response",
+        "three": "Best advices",
+        "four": "Succes travelling"
+      },
+      "rates": {
+        "one": "Trusted company",
+        "two": "Experiance team",
+        "three": "Best prices"
+      },
+      "icon": "mdi-chevron-right"
+    }
+  },
+  "navbar": {
+    "showVisa": "Show visa requests",
+    "homepage": "Home",
+    "about": "About AlTashirat",
+    "contactUs": "Contact Us",
+    "privacyPolicy": "Privacy Policy",
+    "termsAndConditions": "Terms & Conditions",
+    "personalProfile": "Profile",
+    "orderTourismVisa": "Order tourism visa"
+  },
+  "drawer": {
+    "hello": "Hello",
+    "personalProfile": "Personal Profile",
+    "editPassword": "Edit Password",
+    "requests": "Requests",
+    "logout": "Logout",
+    "profileSettings": "More",
+    "version": "Current Version: V1.0"
+  },
+  "services": {
+    "touristVisa": "Request a tourist visa",
+    "employmentVisa": "Request an employment visa",
+    "embassyServices": "Embassy services",
+    "consularServices": "Consular services",
+    "title": "Other services to help you with",
+    "desc": "Are you looking for a tourist visa, employment visa, or want to sell visas? We provide assistance with:"
+  },
+  "footer": {
+    "copyright": "All rights reserved © 2022 AlTashirat Platform",
+    "install": {
+      "title": "Download AlTashirat App"
+    },
+    "requests": {
+      "title": "Visa Requests",
+      "tourism": "Apply for Tourism Visa",
+      "employment": "Apply for Employment Visa",
+      "show": "Show Visa"
+    },
+
+    "socials": {
+      "title": "Social Media",
+      "twitter": "Twitter",
+      "instagram": "Instagram",
+      "facebook": "Facebook",
+      "snapchat": "Snapchat"
+    },
+    "info": {
+      "title": "General Information",
+      "about": "About AlTashirat",
+      "contact": "Contact Us",
+      "termsAndConditions": "Terms & Conditions",
+      "privacyPolicy": "Privacy Policy"
+    }
+  },
+  "manageAccount": {
+    "manageAccount": "More",
+    "title": "Manage Account",
+    "manageSettings": "Account settings, Deactive an delete",
+    "delete": "Delete Account",
+    "icon": "mdi-chevron-right",
+    "deleteDesc": "All transactions, information and reservations will be lost.",
+    "deleteButton": "Delete",
+    "cancelButton": "Cancel",
+    "confirmDelete": "confirm Delete",
+    "confirmDeleteDesc": "Are you sure you want to delete you account?"
+  },
+  "login": {
+    "title": "Login",
+    "phone": "Phone",
+    "password": "Password",
+    "forgotPassword": "Forgot password",
+    "submit": "Submit",
+    "noAccount": "Don't have an account?",
+    "signup": "Sign up"
+  },
+  "signup": {
+    "accountExists": "Already have an account?",
+    "login": "Log in",
+    "title": "Sign up for a new account",
+    "email": "Email",
+    "firstName": "First Name",
+    "firstName is required": "First name is required",
+    "lastName": "Last Name",
+    "phone": "Phone",
+    "password": "Password",
+    "alreadyHaveAccount": "Already have an account?",
+    "register": "Register",
+    "createAccount": "Create Account",
+    "number": "Phone number"
+  },
+
+  "personalInfo": {
+    "title": "Personal profile info"
+  },
+  "changePassword": {
+    "title": "Change Your Password",
+    "labels": {
+      "currentPassword": "Current Password",
+      "confirmPassword": "Confirm New Password",
+      "newPassword": "New Password"
+    }
+  },
+
+  "contactUs": {
+    "contactUs": "Contact Us"
+  },
+
+  "contact": {
+    "title": "Contact Us"
+  },
+  "error": {
+    "title": "Sorry, Something goes wrong please try again.",
+    "desc": "This page does not exist, Please makesure from the page or try in other time."
+  },
+  "orderVisa": {
+    "title": "Information about visa and required qualifications"
+  },
+"fileInput": {
+    "noLimit": "no limit",
+    "filesSelected": "{count}/{max} files selected",
+    "filesSelectedNoLimit": "{count} files selected",
+    "filesSelectedSingular": "{count}/{max} file selected"
+  },
+  "dialog": {
+    "login": "Login to continue",
+    "description": "You must login to continue in your request",
+    "tourismVisa": "Tourism visa application form",
+    "visaTo": "Visa to",
+    "adultsCount": "Adults count:",
+    "childrenCount": "Children count:",
+    "passportNumber": "Passport number:",
+    "download": "Download",
+    "close": "Close",
+    "downloadAttachment": "Download Attachment",
+    "personalInfo": "Personal profile info",
+    "noPassportImages": "No passport images",
+    "noStatus": "No statuses",
+    "loading":"Loading ...",
+    "noAttachments": "No attachments"
+  },
+  "table": {
+    "id": "ID",
+    "created_at": "Date",
+    "firstname": "Name",
+    "destination_country": "Destination Country",
+    "status": "Status",
+    "actions": "View Request",
+    "noRequests": "No requests found until now",
+    "viewDetails": "View Details"
+  },
+  "status": {
+    "pending": "Pending",
+    "reviewing": "Reviewing",
+    "accepted": "Accepted",
+    "rejected": "Rejected"
+  }
+}

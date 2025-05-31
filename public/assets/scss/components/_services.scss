@@ -1,0 +1,27 @@
+.services {
+    background-image: url('/assets/images/services-bg.png');
+    background-size: cover;
+    .services-desc {
+        color: white;
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 48rem) {
+    .services {
+        .services-title {
+            font-size: 2rem;
+        }
+        .services-desc {
+            font-size: 1rem;
+        }
+    }
+}
+
+@media (max-width: 37.5rem) {
+    .services {
+        .services-plane {
+            display: none;
+        }
+    }
+}

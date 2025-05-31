@@ -1,0 +1,13 @@
+.employment-visa {
+    .employment-setion-title {
+        margin-right: 9.375rem;
+    }
+}
+
+@media (max-width: 48rem) {
+    .employment-visa {
+        .employment-setion-title {
+            margin-right: 0;
+        }
+    }
+}

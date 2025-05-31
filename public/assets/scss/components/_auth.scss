@@ -1,0 +1,89 @@
+.login {
+  &-image-container {
+    max-width: 600px;
+    &.signup__image {
+      max-width: 100%;
+    }
+  }
+  &__image {
+    &--gradient-background {
+      background: linear-gradient(
+        to bottom,
+        #b0d3ff,
+        #addcfd,
+        #c0f9d4
+      ) !important;
+    }
+  }
+}
+
+.v-field__input {
+  min-height: fit-content !important;
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+}
+
+.card {
+  transition: all 0.3s ease;
+
+  @media (max-width: 600px) {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 1rem !important;
+  }
+}
+
+.v-text-field,
+.v-select,
+.v-combobox {
+  margin-bottom: 0.5rem;
+
+  @media (max-width: 600px) {
+    font-size: 0.9rem !important;
+  }
+}
+a.locale__router {
+  margin: 0px !important;
+}
+.no-outline.countries__select {
+  span {
+    color: var(--text-color);
+  }
+  .v-input__control {
+    .v-field__outline {
+      display: none;
+    }
+  }
+}
+
+.card__logo {
+  @media (max-width: 600px) {
+    width: 80px !important;
+    height: 80px !important;
+  }
+}
+
+.auth__title {
+  text-align: center;
+
+  @media (max-width: 600px) {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+}
+.mdi-menu-down.v-select__menu-icon {
+  display: none;
+}
+.v-textarea .v-field__input {
+  transition: none !important;
+  -webkit-mask-image: none !important;
+  mask-image: none !important;
+  margin-top: 8px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.v-field__prepend-inner,
+.v-field__append-inner {
+  color: #b2aecc;
+}
