@@ -1,1 +1,0 @@
-import{ax as i,G as r,K as n,ay as c,az as l}from"./Bhzsvwiv.js";const h=i(async s=>{let t,a;const e=r(),o=n("auth-token"),u=["/login","/signup"];if(o.value&&!e.userProfile&&([t,a]=c(()=>e.fetchUserProfile()),await t,a()),e.isAuth&&u.includes(s.path))return l("/")});export{h as default};

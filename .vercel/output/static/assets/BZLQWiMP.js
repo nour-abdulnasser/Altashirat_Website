@@ -1,1 +1,0 @@
-import{_ as s,a as r}from"./D2faKXDv.js";import{_ as c}from"./DlAUqK2U.js";import{I as n,o as _,w as f,d as e,b as d,Y as i,aD as m}from"./Bhzsvwiv.js";import"./v3UP5gzi.js";const p={},l={class:"content"};function u(o,h){const t=s,a=r;return _(),n(m,null,{default:f(()=>[e(t),e(a),d("div",l,[i(o.$slots,"default")])]),_:3})}const $=c(p,[["render",u]]);export{$ as default};
