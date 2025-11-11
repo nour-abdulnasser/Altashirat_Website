@@ -1,0 +1,1 @@
+import{av as p,K as c,B as l,aO as r}from"./Q2SdRWFv.js";const n=p("app-locale-store",()=>{const e=c("app-locale"),o=l(e.value??"ar");async function s(a){e.value=a,o.value=a;const{$i18n:t}=r();await t.setLocale(a)}return{appLocale:o,setAppLocale:s}});export{n as u};
