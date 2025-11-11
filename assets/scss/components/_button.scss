@@ -1,0 +1,63 @@
+@use "~/public/assets/scss/_variables.scss" as *;
+.auth-home-button {
+  width: 180px !important;
+  // z-index: 99999;
+  .back-icon {
+    width: 20px;
+  }
+}
+
+.v-locale--is-ltr {
+  .auth-home-button {
+    // z-index: 999999;
+    position: relative;
+    .back-icon img {
+      transform: scaleX(-1);
+    }
+  }
+}
+
+.v-btn.button {
+  // margin: 11.25px 14.5px;
+  padding-top: 22px !important;
+  padding-bottom: 22px !important;
+  border-radius: 23px;
+  text-transform: none;
+
+  &--primary-filled {
+    color: white;
+    background-color: var(--primary-color);
+  }
+
+  &--secondary-filled {
+    color: white;
+    background-color: var(--secondary-color);
+  }
+
+  &--accent--filled {
+    color: white;
+    background-color: var(--accent-color);
+  }
+
+  &--primary-unfilled {
+    background-color: white;
+    color: var(--primary-color);
+    border: solid 1.7px var(--primary-color);
+  }
+
+  &--secondary-unfilled {
+    background-color: white;
+    color: var(--secondary-color);
+    border: solid 1.7px var(--secondary-color);
+  }
+
+  &--gradient-filled {
+    color: white;
+    background-image: linear-gradient(
+      90deg,
+      var(--accent-color) 0%,
+      var(--secondary-color) 50%,
+      var(--primary-color) 100%
+    );
+  }
+}

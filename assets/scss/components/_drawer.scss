@@ -1,0 +1,155 @@
+.drawer {
+  background-image: url("/public/assets/images/drawer.png") !important;
+  background-size: 100% 100% !important;
+  background-repeat: no-repeat !important;
+  width: 225px !important;
+  position: relative;
+
+  &__profile {
+    &__picture {
+      width: 64px;
+      height: 64px;
+      position: absolute;
+      transform: translate(15%, -50%);
+    }
+    &__wrapper {
+      position: relative;
+      overflow: visible;
+      z-index: 999;
+      border-radius: 8px;
+      background-color: var(--light-white);
+    }
+  }
+  .v-navigation-drawer__content {
+    position: relative;
+    .drawer__version {
+      position: absolute;
+      bottom: 10% !important;
+    }
+  }
+
+  .v-expansion-panel-title {
+    background-color: var(--light-white);
+  }
+  .drawer-icon__wrapper {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 4px;
+    svg {
+      fill: var(--text-color);
+    }
+  }
+
+  .active-link,
+  .router-link-active.router-link-exact-active {
+    background-color: var(--light-white);
+    border-radius: 8px;
+    .drawer-icon__wrapper {
+      background-image: linear-gradient(
+        to top right,
+        var(--accent-color),
+        var(--secondary-color),
+        var(--primary-color)
+      );
+      .v-icon {
+        color: white !important;
+      }
+      svg {
+        fill: white;
+      }
+    }
+  }
+  .v-list-item :deep(.locale__router) {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 4px;
+    &.router-link-active {
+      background-color: var(--light-white);
+    }
+  }
+  &.not-wide__profile {
+    top: 64px !important; // Header height
+    z-index: 999 !important;
+    // bottom: 0px !important;
+    // height: 100% !important;
+  }
+  .v-expansion-panel-text__wrapper {
+    padding: 8px;
+  }
+}
+.user-profile-card {
+  position: relative;
+  overflow: visible;
+  border-radius: 8px !important;
+  background-color: var(--light-white);
+
+  z-index: 1;
+  margin-top: 2rem; // Add some top margin to accommodate the overflowing avatar (overflow visible isn't working for some reason)
+  // padding-top: 12px; // Extra padding at the top (overflow visible isn't working for some reason)
+}
+
+.v-locale--is-rtl {
+  .drawer {
+    .user-profile-card__picture {
+      position: relative;
+      overflow: visible;
+
+      z-index: 1;
+      padding-right: 70px !important; // Making room for the avatar on the left
+    }
+    .profile-picture__wrapper {
+      position: absolute;
+      overflow: visible;
+      top: -25%; // To position the avatar correctly
+      right: 5%;
+      z-index: 2;
+    }
+    .profile__avatar {
+      z-index: 3;
+    }
+    .edit-badge {
+      position: absolute;
+      top: -4px;
+      right: -4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 4; // the badge stays on top of avatar
+    }
+  }
+}
+.v-locale--is-ltr {
+  .drawer {
+    .user-profile-card__picture {
+      position: relative;
+      overflow: visible;
+
+      z-index: 1;
+      padding-left: 70px !important; // Making room for the avatar on the left
+    }
+    .profile-picture__wrapper {
+      position: absolute;
+      overflow: visible;
+      top: -25%; // To position the avatar correctly
+      left: 5%;
+      z-index: 2;
+    }
+    .profile__avatar {
+      z-index: 3;
+    }
+    .edit-badge {
+      position: absolute;
+      top: -4px;
+      left: -4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 4; // the badge stays on top of avatar
+    }
+  }
+}
+.drawer-item__icon--default {
+  fill: black;
+  background-color: #fff;
+}

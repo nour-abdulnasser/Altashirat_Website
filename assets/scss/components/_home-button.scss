@@ -1,0 +1,12 @@
+.home-button {
+    .home-button-content {
+        transition: 0.3s;
+        width: 15.625rem;
+        height: 50px;
+        max-width: 100%;
+
+        .home-button-desc {
+            font-size: 1.375rem;
+        }
+    }
+}
