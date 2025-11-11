@@ -63,4 +63,11 @@ export default defineNuxtConfig({
   experimental: {
     asyncContext: true,
   },
+  target: 'static',
+  app: {
+    baseURL: '/Altashirat_Website/',
+  },
+  nitro: {
+    preset: 'github_pages'
+  }
 });
