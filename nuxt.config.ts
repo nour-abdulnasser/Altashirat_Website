@@ -63,11 +63,12 @@ export default defineNuxtConfig({
   experimental: {
     asyncContext: true,
   },
-  target: 'static',
+  // target: 'static',
   app: {
-    baseURL: '/Altashirat_Website/',
+    baseURL: '/',
+    buildAssetsDir: 'assets',
   },
   nitro: {
-    preset: 'github_pages'
+    preset: 'vercel'
   }
 });

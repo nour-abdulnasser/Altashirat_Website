@@ -1,0 +1,93 @@
+.file-upload-wrapper {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.file-input {
+  transition: all 0.3s ease;
+}
+
+.file-preview {
+  background-color: var(--text-input);
+  border-radius: 12px;
+  padding: 16px;
+  animation: fadeIn 0.3s ease;
+}
+
+.file-count-chip {
+  background: var(--custom-gradient);
+}
+
+.preview-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.file-card {
+  display: flex;
+  align-items: center;
+  background: white;
+  border: 1px solid #ececec;
+  border-radius: 8px;
+  padding: 8px 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  width: 100%;
+  max-width: 280px;
+  animation: slideIn 0.3s ease;
+}
+
+.file-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.file-icon {
+  color: var(--primary-color);
+}
+
+.file-info {
+  flex-grow: 1;
+  min-width: 0;
+}
+
+.file-size {
+  display: block;
+  font-size: 0.75rem;
+  color: #757575;
+}
+
+.remove-btn {
+  color: var(--error-color) !important;
+}
+
+.remove-btn:hover {
+  color: var(--error-color) !important;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(10px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@media (max-width: 600px) {
+  .file-card {
+    max-width: 100%;
+  }
+}
